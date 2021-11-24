@@ -8,7 +8,7 @@ class TextEditor:
 
   def __init__(self,root):
     self.root = root
-    self.root.title("TEXT EDITOR")
+    self.root.title("Parkdwn")
     self.root.geometry("1200x700+200+150")
     self.filename = None
     self.title = StringVar()
@@ -163,7 +163,7 @@ class TextEditor:
 
   # about operation
   def infoabout(self):
-    messagebox.showinfo("About Text Editor","A Simple Text Editor\nCreated using Python.")
+    messagebox.showinfo("About Parkdwn","A minimalist Markdown editor\ncreated using Python.")
 
   # shortcuts def
   def shortcuts(self):
